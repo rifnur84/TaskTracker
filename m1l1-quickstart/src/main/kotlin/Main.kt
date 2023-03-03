@@ -1,4 +1,4 @@
-package ru.otus.marketplace.m1l1
+package ru.rifnur.tasktracker.m1l1
 
 fun main(){
     println("Hello World!")
