@@ -19,7 +19,7 @@ kotlin {
 
             dependencies {
                 implementation(kotlin("stdlib-common"))
-
+//                implementation(kotlin("stdlib-common"))
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:$serializationVersion")
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$serializationVersion")
             }
