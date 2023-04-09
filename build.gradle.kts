@@ -1,29 +1,22 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.7.21"
-    application
+    kotlin("jvm") apply false
 }
 
 group = "ru.rifnur.tasktracker"
 version = "1.0-SNAPSHOT"
 
-repositories {
-    mavenCentral()
-}
+subprojects {
+    group = rootProject.group
+    version = rootProject.version
+    repositories {
+        mavenCentral()
+    }
 
-dependencies {
-    testImplementation(kotlin("test"))
-}
 
-tasks.test {
-    useJUnitPlatform()
-}
+    tasks.withType<KotlinCompile> {
+        kotlinOptions.jvmTarget = "11"
+    }
 
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
-}
-
-application {
-    mainClass.set("MainKt")
 }
