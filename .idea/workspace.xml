@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abe7d16e-caec-462d-a71d-29b84930276c" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/docker-compose-fbos-cluster.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/docker-compose-fbos.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/volumes/fluent-bit-etc/fluent-bit.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/volumes/fluent-bit-etc/parsers.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/volumes/nginx/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/volumes/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/01-marketing/01-stakeholders.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/01-marketing/02-target-audience.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/01-marketing/03-concurrency.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/01-marketing/04-economy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/01-marketing/05-user-stories.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/02-devops/01-infrastruture.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/02-devops/02-monitoring.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/02-devops/img/Execution_of_the_application.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/02-devops/img/M2L2-infrastructure-Monitoring.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/02-devops/img/M2L2-infrastructure.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/02-devops/img/Registration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TaskTracker" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="m1-init" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JxtUI7wjEZYKTy52NoI2eRjkqB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/02-devops/img" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\OTUS\MyProject\docs\02-devops\img" />
+      <recent name="C:\IdeaProjects\OTUS\MyProject" />
+      <recent name="C:\IdeaProjects\OTUS\MyProject\docs\02-devops" />
+      <recent name="C:\IdeaProjects\OTUS\MyProject\docs\01-marketing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.deploy/docker-compose-fbos.yml: Compose Deployment">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="TaskTracker.m1l1-quickstart.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.marketplace.m1l1.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="deploy/docker-compose-fbos.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="deploy/docker-compose-fbos.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.deploy/docker-compose-fbos.yml: Compose Deployment" />
+        <item itemvalue="Application.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abe7d16e-caec-462d-a71d-29b84930276c" name="Changes" comment="" />
+      <created>1673031577714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673031577714</updated>
+      <workItem from="1676225889424" duration="25771000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1673031775941</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673031775941</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+</project>
