@@ -14,7 +14,7 @@ import ru.rifnur.tasktracker.api.v2.requests.IResponseStrategy
 val TaskResponseSerializer = ResponseSerializer(TaskResponseSerializerBase)
 
 private object TaskResponseSerializerBase : JsonContentPolymorphicSerializer<IResponse>(IResponse::class) {
-    private const val discriminator = "responseType"
+    private const val discriminator = "requestType"
 
     override fun selectDeserializer(element: JsonElement): KSerializer<out IResponse> {
 

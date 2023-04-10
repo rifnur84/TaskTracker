@@ -25,5 +25,4 @@ include("tasktracker-mappers")
 include("tasktracker-common")
 include("tasktracker-ktor")
 include("tasktracker-stubs")
-include("tasktracker-kafka")
-include("tasktracker-biz")
+
