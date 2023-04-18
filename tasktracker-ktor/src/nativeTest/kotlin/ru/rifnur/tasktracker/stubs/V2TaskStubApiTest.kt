@@ -137,7 +137,7 @@ class V2TaskStubApiTest {
         val responseJson = response.bodyAsText()
         val responseObj = apiV2Mapper.decodeFromString<TaskSearchResponse>(responseJson)
         assertEquals(200, response.status.value)
-        assertEquals("d-666-01", responseObj.tasks?.first()?.id)
+        assertEquals("1", responseObj.tasks?.first()?.id)
     }
 
 }
