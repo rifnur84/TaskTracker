@@ -4,16 +4,26 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../Gradle/gradle-7.6" />
         <option name="gradleJvm" value="18" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/m1l1-quickstart" />
+            <option value="$PROJECT_DIR$/api-v2-kmp" />
+            <option value="$PROJECT_DIR$/tasktracker-api-log" />
+            <option value="$PROJECT_DIR$/tasktracker-biz" />
+            <option value="$PROJECT_DIR$/tasktracker-common" />
+            <option value="$PROJECT_DIR$/tasktracker-kafka" />
+            <option value="$PROJECT_DIR$/tasktracker-ktor" />
+            <option value="$PROJECT_DIR$/tasktracker-lib-cor" />
+            <option value="$PROJECT_DIR$/tasktracker-lib-logging-common" />
+            <option value="$PROJECT_DIR$/tasktracker-lib-logging-logback" />
+            <option value="$PROJECT_DIR$/tasktracker-logging-kermit" />
+            <option value="$PROJECT_DIR$/tasktracker-mappers" />
+            <option value="$PROJECT_DIR$/tasktracker-mappers-log" />
+            <option value="$PROJECT_DIR$/tasktracker-rabbit" />
+            <option value="$PROJECT_DIR$/tasktracker-stubs" />
           </set>
         </option>
       </GradleProjectSettings>

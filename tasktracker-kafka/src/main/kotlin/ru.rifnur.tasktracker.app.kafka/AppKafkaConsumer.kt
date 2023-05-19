@@ -13,8 +13,8 @@ import org.apache.kafka.clients.consumer.ConsumerRecords
 import org.apache.kafka.clients.producer.Producer
 import org.apache.kafka.clients.producer.ProducerRecord
 import org.apache.kafka.common.errors.WakeupException
-import ru.rifnur.tasktracker.common.ComTaskContext
 import ru.rifnur.tasktracker.biz.ComTaskProcessor
+import ru.rifnur.tasktracker.common.ComTaskContext
 import java.time.Duration
 import java.util.*
 

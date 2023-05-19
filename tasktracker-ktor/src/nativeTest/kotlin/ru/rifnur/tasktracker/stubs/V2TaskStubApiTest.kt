@@ -11,7 +11,8 @@ import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import ru.rifnur.tasktracker.api.v2.apiV2Mapper
 import ru.rifnur.tasktracker.api.v2.models.*
-import ru.rifnur.tasktracker.module
+import ru.rifnur.tasktracker.app.module
+//import ru.rifnur.tasktracker.module
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

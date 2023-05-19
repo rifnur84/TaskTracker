@@ -19,7 +19,7 @@ pluginManagement {
     }
 }
 
-include("m1l1-quickstart")
+//include("m1l1-quickstart")
 include("api-v2-kmp")
 include("tasktracker-mappers")
 include("tasktracker-common")
@@ -27,3 +27,13 @@ include("tasktracker-ktor")
 include("tasktracker-stubs")
 include("tasktracker-kafka")
 include("tasktracker-biz")
+include("tasktracker-lib-cor")
+include("tasktracker-lib-logging-common")
+include("tasktracker-rabbit")
+include("tasktracker-logging-kermit")
+include("tasktracker-lib-logging-logback")
+include("tasktracker-mappers-log")
+include("tasktracker-api-log")
+
+
+
