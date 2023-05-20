@@ -2,23 +2,25 @@ package ru.rifnur.tasktracker.app.v2
 
 import io.ktor.server.application.*
 import io.ktor.server.routing.*
+import ru.rifnur.tasktracker.app.ComTaskAppSettings
 
-fun Route.v2Task() {
+fun Route.v2Task(appSettings: ComTaskAppSettings) {
+    val loggerTask = appSettings.corSettings.loggerProvider.logger(Route::v2Task)
     route("task") {
         post("create") {
-            call.createTask()
+            call.createTask(appSettings, loggerTask)
         }
         post("read") {
-            call.readTask()
+            call.readTask(appSettings, loggerTask)
         }
         post("update") {
-            call.updateTask()
+            call.updateTask(appSettings, loggerTask)
         }
         post("delete") {
-            call.deleteTask()
+            call.deleteTask(appSettings, loggerTask)
         }
         post("search") {
-            call.searchTask()
+            call.searchTask(appSettings, loggerTask)
         }
     }
 }

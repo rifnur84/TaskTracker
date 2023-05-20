@@ -19,6 +19,7 @@ kotlin {
 
                 implementation(project(":tasktracker-common"))
                 implementation(project(":tasktracker-stubs"))
+                implementation(project(":tasktracker-lib-cor"))
             }
         }
         @Suppress("UNUSED_VARIABLE")

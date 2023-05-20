@@ -70,6 +70,12 @@ private fun Set<ComTaskPermissionClient>.toTransportTask(): Set<TaskPermissions>
     .toSet()
     .takeIf { it.isNotEmpty() }
 
+fun ComTaskContext.toTransportInit() = TaskInitResponse(
+    requestId = this.requestId.asString().takeIf { it.isNotBlank() },
+    result = if (errors.isEmpty()) ResponseResult.SUCCESS else ResponseResult.ERROR,
+    errors = errors.toTransportErrors(),
+)
+
 private fun ComTaskPermissionClient.toTransportTask() = when (this) {
     ComTaskPermissionClient.READ -> TaskPermissions.READ
     ComTaskPermissionClient.UPDATE -> TaskPermissions.UPDATE

@@ -5,10 +5,10 @@ plugins {
     kotlin("multiplatform") apply false
     kotlin("jvm") apply false
 }
-val JVM_TAEGET = "11"
+val javaVersion: String by project
 
 group = "ru.rifnur.tasktracker"
-version = "1.0-SNAPSHOT"
+version = "1.0.0"
 
 allprojects {
     repositories {
@@ -23,10 +23,10 @@ subprojects {
     version = rootProject.version
 
     tasks.withType<KotlinCompile> {
-        kotlinOptions.jvmTarget = JVM_TAEGET
+        kotlinOptions.jvmTarget = javaVersion
     }
     tasks.withType<KotlinJvmCompile> {
-        kotlinOptions.jvmTarget = JVM_TAEGET
+        kotlinOptions.jvmTarget = javaVersion
     }
 
 }

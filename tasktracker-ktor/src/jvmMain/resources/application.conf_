@@ -1,0 +1,11 @@
+ktor {
+    deployment {
+        port = 8080
+    }
+    application {
+        modules = [
+          ru.rifnur.tasktracker.ApplicationKt.module,
+          ru.rifnur.tasktracker.ApplicationJvmKt.moduleJvm,
+        ]
+    }
+}

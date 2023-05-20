@@ -8,6 +8,7 @@ data class ComTaskContext(
     var command: ComTaskCommand = ComTaskCommand.NONE,
     var state: ComTaskState = ComTaskState.NONE,
     val errors: MutableList<ComTaskError> = mutableListOf(),
+    var settings: ComTaskCorSettings = ComTaskCorSettings.NONE,
 
     var workMode: ComTaskWorkMode = ComTaskWorkMode.PROD,
     var stubCase: ComTaskStubs = ComTaskStubs.NONE,
@@ -18,4 +19,10 @@ data class ComTaskContext(
     var taskFilterRequest: ComTaskFilter = ComTaskFilter(),
     var taskResponse: ComTask = ComTask(),
     var tasksResponse: MutableList<ComTask> = mutableListOf(),
+
+    var taskValidating: ComTask = ComTask(),
+    var taskFilterValidating: ComTaskFilter =ComTaskFilter(),
+
+    var taskValidated: ComTask = ComTask(),
+    var taskFilterValidated: ComTaskFilter = ComTaskFilter(),
 )

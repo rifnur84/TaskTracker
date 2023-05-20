@@ -4,4 +4,5 @@ enum class ComTaskState {
     NONE,
     RUNNING,
     FAILING,
+    FINISHING,
 }
